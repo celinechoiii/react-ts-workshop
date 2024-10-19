@@ -18,7 +18,7 @@ const ProfileCard: React.FC<ProfileCardProps> = ({ name, pronouns }) => {
 
   return (
     <div className="profile-card">
-        <div className="flex-row">
+        <div className="profile-details">
             <Image
                 src="/images/blueprint.png"
                 alt="Blueprint Logo"
@@ -29,11 +29,11 @@ const ProfileCard: React.FC<ProfileCardProps> = ({ name, pronouns }) => {
                 <h2 className="profile-name">{name}</h2>
                 <p className="profile-pronouns">{pronouns}</p>
             </div>
-            <div className="flex-column">
-                <p className="like-count">{like}</p>
-                <button onClick={handleOnClick}>Like</button>
-            </div>
-      </div>
+        </div>
+        <div className="flex-column">
+            <p className="like-count">{like}</p>
+            <button className="like-button" onClick={handleOnClick}>Like</button>
+        </div>
     </div>
   );
 };
