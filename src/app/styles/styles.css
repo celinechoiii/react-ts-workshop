@@ -7,36 +7,35 @@
     padding: 20px;
     text-align: left;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  }
+}
   
-  .flex-row {
+.flex-row {
     display: flex;
     flex-direction: row;
-    justify-content: center; /* Align items vertically in the center */
-    gap: 20px; /* Add spacing between columns */
-  }
-  
-  .flex-column {
+    align-items: center;
+    gap: 20px;
+}
+
+.flex-column {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center column items */
-  }
-  
-  .profile-name {
+    align-items: center;
+}
+
+.profile-name {
     font-size: 1.5em;
     margin: 0;
     font-weight: bold;
-  }
-  
-  .profile-pronouns {
+}
+
+.profile-pronouns {
     font-size: 1.2em;
     color: #555;
     margin: 5px 0 0 0;
-  }
-  
-  .like-count {
+}
+
+.like-count {
     font-size: 1.2em;
     text-align: center;
     padding-bottom: 10px;
-  }
-  
+}
