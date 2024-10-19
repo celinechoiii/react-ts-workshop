@@ -1,0 +1,42 @@
+.profile-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: left;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* Align items vertically in the center */
+    gap: 20px; /* Add spacing between columns */
+  }
+  
+  .flex-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center column items */
+  }
+  
+  .profile-name {
+    font-size: 1.5em;
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  .profile-pronouns {
+    font-size: 1.2em;
+    color: #555;
+    margin: 5px 0 0 0;
+  }
+  
+  .like-count {
+    font-size: 1.2em;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  
